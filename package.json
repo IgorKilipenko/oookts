@@ -1,0 +1,64 @@
+{
+  "name": "oookts",
+  "version": "0.1.0",
+  "description": "KTS site in react",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress",
+    "startDev": ".\\node_modules\\.bin\\webpack-dev-server",
+    "start": "node build/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorKilipenko/oookts.git"
+  },
+  "author": "Igor Kilipenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorKilipenko/oookts/issues"
+  },
+  "homepage": "https://github.com/IgorKilipenko/oookts#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-class-properties": "6.23.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-es2017": "6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "6.22.0",
+    "babel-preset-stage-2": "6.22.0",
+    "css-loader": "0.28.0",
+    "eslint": "^3.18.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-react": "^6.10.0",
+    "npm-install-webpack-plugin": "github:webpack-contrib/npm-install-webpack-plugin",
+    "postcss-loader": "1.3.3",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "0.16.1",
+    "svg-inline-loader": "^0.7.1",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "aphrodite": "1.2.0",
+    "express": "4.15.2",
+    "material-ui": "0.17.1",
+    "mongoose": "4.9.2",
+    "re": "0.1.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-event-listener": "0.4.3",
+    "react-redux": "^5.0.3",
+    "react-router": "^4.0.0",
+    "react-router-dom": "4.0.0",
+    "react-router-redux": "5.0.0-alpha.3",
+    "react-tap-event-plugin": "2.0.1",
+    "red": "0.0.0",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "2.13.0",
+    "semantic-ui-react": "^0.67.1",
+    "transliteration": "1.5.3"
+  }
+}
